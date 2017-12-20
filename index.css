@@ -175,10 +175,10 @@ body {
     grid-column: 1/4;
     grid-row: 1/2;
 }
-  .company{
-    grid-column: 1/4;
-    }
 
+.company {
+    grid-column: 1/4;
+}
 
 @media screen and (min-width: 760px) {
     .Nav {
@@ -224,29 +224,137 @@ body {
         grid-column: 3/4;
         grid-row: 1/2;
     }
-    .company{
-    grid-column: 1/2;
+    .company {
+        grid-column: 1/2;
     }
-.img {
-    grid-column: 1/2;
-    height: 200px;
-    border-radius: 100%;
-    background-color: #ecf0f1;
+    .img {
+        grid-column: 1/2;
+        height: 200px;
+        border-radius: 100%;
+        background-color: #ecf0f1;
+    }
 }
+
+
+/* DESIGN 1 DONE */
+
+
+/* DESIGN 1 DONE */
+
+
+/* DESIGN 1 DONE */
+
+
+/* DESIGN 1 DONE */
+
+
+/* DESIGN 1 DONE */
+
+
+/* DESIGN 1 DONE */
+
+
+/* DESIGN 2 Start */
+
+.Design2 {
+    display: grid;
+    margin: 0 auto;
+    max-width: 90%;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    margin-bottom: 50px;
+    grid-gap: 10px;
 }
 
-/* DESIGN 1 DONE */
-/* DESIGN 1 DONE */
-/* DESIGN 1 DONE */
-/* DESIGN 1 DONE */
-/* DESIGN 1 DONE */
-/* DESIGN 1 DONE */
+.Design2 div {
+    background-color: #e67e22;
+    padding: 20px;
+}
+
+.Design2 div:nth-child(odd) {
+    background-color: #c0392b;
+}
+
+.Nav2 {
+    grid-column: 1/13;
+}
+
+.news {
+    grid-column: 1/4;
+}
+
+.right {
+    grid-column: 10/13;
+}
+
+.news5 {
+    grid-row: 2/3;
+}
+
+.news6 {
+    grid-row: 3/4;
+}
+
+.news7 {
+    grid-row: 4/5;
+}
+
+.news8 {
+    grid-row: 5/6;
+}
+
+.big_news {
+    grid-row: 2/6;
+    grid-column: 4/10;
+}
+
+.extra {
+    grid-column: 1/13;
+    grid-row: 6/8;
+}
+
+.right_bar {
+    grid-column: 9/13;
+    grid-row: 8/10;
+}
+
+.close_right {
+    grid-column: 6/9;
+    grid-row: 8/10;
+}
+
+.big {
+    grid-column: 1/6;
+    grid-row: 8/10;
+}
+
+.footer2 {
+    grid-column: 1/13;
+    grid-row: 10/11;
+}
+
+@media screen and (max-width: 760px) {
+    .Design2 div {
+        grid-column: 1/13;
+    }
+    .Nav2{
+        display: none;
+    }
+}
 
 
-
-
-
-
-
-
-/* DESIGN 2 DONE */
+/*         <div class="Nav2">Navigation</div>
+        <div class="news1">News 1</div>
+        <div class="news2">News 2</div>
+        <div class="news3">News 3</div>
+        <div class="news4">News 4</div>
+        <div class="news5">News 5</div>
+        <div class="news6">News 6</div>
+        <div class="news7">News 7</div>
+        <div class="news8">News 8</div>
+        <div class="big_news">Here is the big news</div>
+        <div class="extra">Extra</div>
+        <div class="right_bar">Right side</div>
+        <div class="close_right">Close right</div>
+        <div class="big">Big to bars</div>
+        <div class="footer2">Footer</div> /*
